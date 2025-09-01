@@ -1,22 +1,18 @@
-# Welcome to your Lovable project
+# Kiran Nandarapalli - Portfolio Website
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/372be49e-1d52-4e66-abba-e05a446bf42b
+## Project Info
+
+Personal portfolio website showcasing skills, experience, and projects.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/372be49e-1d52-4e66-abba-e05a446bf42b) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+You can clone this repo and push changes directly.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +20,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/kirannandarapalli/kirannandarapalli.github.io.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd kirannandarapalli.github.io
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -62,13 +58,13 @@ This project is built with:
 
 ## How can I deploy this project?
 
-### GitHub Pages (Recommended for this repo)
+### GitHub Pages (Primary Deployment)
 
 This project is configured for automatic deployment to GitHub Pages:
 
 1. **Push to main branch**: Any push to the `main` branch will automatically trigger deployment
 2. **GitHub Actions**: The deployment is handled by the workflow in `.github/workflows/deploy.yml`
-3. **Live URL**: Once deployed, your site will be available at: `https://kirannandarapalli.github.io/kirannandarapalli.github.io/`
+3. **Live URL**: Once deployed, your site will be available at: `https://kirannandarapalli.github.io/`
 
 **Manual deployment setup:**
 1. Go to your GitHub repository settings
@@ -76,14 +72,4 @@ This project is configured for automatic deployment to GitHub Pages:
 3. Under "Source", select "GitHub Actions"
 4. The workflow will automatically run on the next push to main
 
-### Alternative: Lovable Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/372be49e-1d52-4e66-abba-e05a446bf42b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
