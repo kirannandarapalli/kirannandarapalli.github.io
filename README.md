@@ -62,6 +62,22 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### GitHub Pages (Recommended for this repo)
+
+This project is configured for automatic deployment to GitHub Pages:
+
+1. **Push to main branch**: Any push to the `main` branch will automatically trigger deployment
+2. **GitHub Actions**: The deployment is handled by the workflow in `.github/workflows/deploy.yml`
+3. **Live URL**: Once deployed, your site will be available at: `https://kirannandarapalli.github.io/kirannandarapalli.github.io/`
+
+**Manual deployment setup:**
+1. Go to your GitHub repository settings
+2. Navigate to "Pages" in the sidebar
+3. Under "Source", select "GitHub Actions"
+4. The workflow will automatically run on the next push to main
+
+### Alternative: Lovable Deployment
+
 Simply open [Lovable](https://lovable.dev/projects/372be49e-1d52-4e66-abba-e05a446bf42b) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
